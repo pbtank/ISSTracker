@@ -175,10 +175,10 @@ function interpolate(_to, _td, _sec) {
 
 function initSat(data) {
 	let i = 0;
-	print(data);
+	// print(data);
 	// for (let key in data) {
 		var nodes = L.layerGroup();
-		print(data[key]);
+		print(ID);
 		satlist[ID] = new Satellite(ID, data[ID], nodes);
 		i++;
 	// }
